@@ -19,7 +19,7 @@ int main(void) {
 
   Cents cents(20);
   cout << cents.cents() << endl;
-  cout << (cents - Cents(10)).cents() << endl;
+  cout << (-cents).cents() << endl;
 
   return 0;
 }
